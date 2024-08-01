@@ -4,7 +4,7 @@
 
 // coad readability should be high 
 
-let name = "Himanshu" 
+let Name = "Himanshu" 
 let age = 20 
 let isLoggedin = false 
 
