@@ -1,0 +1,22 @@
+"use strict"; // treat all js coad as newer version 
+
+// alert(3+3) // we are using node js not browser 
+
+// coad readability should be high 
+
+let name = "Himanshu" 
+let age = 20 
+let isLoggedin = false 
+
+// number => 2 to power 53 
+// bigint 
+// string => ""
+// boolean => true/false 
+// null => standalone value 
+// undefined => value not define 
+// symbol => unique 
+
+// object 
+
+console.log(typeof undefined) // undefined 
+console.log(typeof null) // object
