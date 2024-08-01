@@ -13,6 +13,10 @@ accountCity = "narmadapuram"
 
 console.table ([accountId, accountEmail, accountPassword, accountCity, accountState]) 
 
+let useraccount = 
+[{"accountId":accountId,"accountEmail": accountEmail,"accountPassword": accountPassword,"accountCity": accountCity,"accountState": accountState}]
+
+console.table(useraccount)
 /*
 prefer not to use var 
 because of issue in block scope and functional scope 
