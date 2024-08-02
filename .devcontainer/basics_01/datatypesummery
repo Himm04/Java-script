@@ -11,7 +11,7 @@ let userEmailId;
 
 const id = Symbol("1234") 
 const anotherId = Symbol("1234")
-console.log(id === anotherId); 
+//console.log(id === anotherId); 
 
 const bigNumber = 9898989898989898n
 
@@ -43,4 +43,28 @@ const myFunction = function(){
 2) Non-primitive Datatypes
        Arrays  =>  object
        Function  =>  function
-       Object  =>  object */
+       Object  =>  object */ 
+
+       /*************************/
+
+       // Stack (primitive), Heap(non primitive)
+
+let myYoutubename = "procinematicsdotcom" 
+let anothername = myYoutubename
+anothername = "Himmsworld"
+
+console.log(myYoutubename);
+console.log(anothername); 
+
+
+
+let userOne = { 
+    Email:  "userOne@google.com", 
+    upi: "user@ybl"
+}
+let userTwo = userOne 
+userTwo.upi = "12345678@ybl" 
+
+console.log(userOne.upi);
+console.log(userTwo.upi);
+
