@@ -1,0 +1,46 @@
+// primitive 
+
+// 7 types : String, Number, Boolean, Null, Undefined, Symbol, Bigint 
+
+const score = 100 
+const scoreValue = 100.2 
+
+const isLoggedIn = false 
+const outsideTemp = null 
+let userEmailId;
+
+const id = Symbol("1234") 
+const anotherId = Symbol("1234")
+console.log(id === anotherId); 
+
+const bigNumber = 9898989898989898n
+
+// Non primitive (referance) 
+
+// Array, Objects, Functions 
+
+const heros = ["spiderman" , "superman"]; 
+let myobj = {
+
+    name: "Himanshu",
+    age: 20,
+} 
+
+const myFunction = function(){ 
+    console.log("Hello world");
+} 
+
+//Return type of variables in JavaScript
+//1) Primitive Datatypes
+      /* Number => number
+       String  => string
+       Boolean  => boolean
+       null  => object
+       undefined  =>  undefined
+       Symbol  =>  symbol
+       BigInt  =>  bigint
+
+2) Non-primitive Datatypes
+       Arrays  =>  object
+       Function  =>  function
+       Object  =>  object */
